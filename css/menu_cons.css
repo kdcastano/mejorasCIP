@@ -1,0 +1,41 @@
+.cont_menu {
+	border:2px solid #222;		/* Color y Tipo de línea del Borde del elemento */
+	width:45%;				/* Ancho del objeto */
+	border-radius:5px;		/* Controla el borde de los objetos */
+	clear:both; /* Quitar el Float Left en los elementos para que no haya nada en los lados */	
+	border:1px solid #454545; /* Controla el borde de los objetos */
+	background: linear-gradient(#ACAAAA, #c4c4c4); /* the standard */
+	padding:5px;	/* Establece las márgenes internas de cada objeto (Top, right, bottom, left) */
+	margin-top: 5px;	/* Establece la márgen superior de un objeto */
+/*	float:left;		/* Pone Flotante el Objeto */
+	display:inline-block; /* Que pueda tener Divs Consecutivos */
+}
+
+.borrar{
+	clear:both;	/* Limpia el Float y empieza como si fuera una página nueva */
+}
+	
+.titulo{
+	width:25%;
+	border-radius:5px;		/* Controla el borde de los objetos */
+	clear:both; /* Quitar el Float Left en los elementos para que no haya nada en los lados */	
+	border:1px solid #454545; /* Controla el borde de los objetos */
+	background: linear-gradient(#ACAAAA, #DCE7FF); /* the standard */
+	padding:5px;	/* Establece las márgenes internas de cada objeto (Top, right, bottom, left) */
+	margin-top: 5px;	/* Establece la márgen superior de un objeto */
+	display:inline-block; /* Que pueda tener Divs Consecutivos */
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:18px;
+	font-style:inherit;
+	text-align:center;
+}
+
+#parametros, #f_consulta, #frmimprimir, #frmvehiculo, #f_extracto, #f_consultacon, #frmimprimircon, #f_consultaHistorialUnidad, #f_consultaHistorialUnidadI, #f_pdfHistorialUnidad, #b_excelDetalleReciboPagos, #b_imprimirDetalleReciboPagos {
+	display:inline-block; /* Que pueda tener Divs Consecutivos */
+}
+
+#info_credito{
+	background: linear-gradient(#ACAAAA, #DCE7FF); /* the standard */
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:18px;	
+}

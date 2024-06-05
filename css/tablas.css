@@ -1,0 +1,87 @@
+.titulotab {
+	font-weight: bold;
+	background-color:#A29A9A !important;
+}
+.encabezadoTab {
+	font-weight: bold;
+	background-color: #646464 !important;
+  color: #FFFFFF !important;
+}
+.encabezadoTab2 {
+	font-weight: bold;
+	background-color: #205C92 !important;
+  color: #FFFFFF !important;
+}
+.encabezadoSapSam {
+	font-weight: bold;
+	background-color: #7DB928 !important;
+  color: #000000 !important;
+}
+.encabezadoConex{
+  color: White;
+  background-color: #646464 !important;
+}
+.encabezadoCorp{
+  background-color: #205C92;
+  color: #FFFFFF;
+}
+.separadorestab {
+	background-color:#CFD0D4;
+}
+.pietab {
+	font-size:8px;
+}
+.colum {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 20px;
+	text-align: justify;
+	vertical-align: top;
+	width: 50%;
+}
+
+.colum.first {
+	border-right: 5px solid #4BB495  ;
+}
+.inpnum {
+    width: 50px;
+}
+.ordenamiento{
+	cursor:pointer;
+}
+.ordenamiento th{
+	background-image: url(../imagenes/ordenamiento.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right:15px;
+}
+th.headerSortUp{ 
+    background-image: url(../imagenes/ordenamientoabajo.png); 
+} 
+th.headerSortDown{ 
+    background-image: url(../imagenes/ordenamientoarriba.png); 
+}
+
+
+
+
+input[type=number]::-webkit-outer-spin-button,
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+ 
+
+input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+input{
+  color: #000000 !important;
+}
